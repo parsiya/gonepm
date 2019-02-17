@@ -48,22 +48,22 @@ This method parses Avanka's list at https://gist.github.com/anvaka/8e8fa57c7ee13
 
 ``` go
 packages := []string{
-	"lodash",
-	"request",
-	"chalk",
-	"commander",
-	"express",
-	"react",
-	"async",
-	"debug",
-	"bluebird",
-	"yargs",
-	"q",
-	"vue",
-	"gulp",
-	"@angular/core",
-	"optimist",
-	"co",
+    "lodash",
+    "request",
+    "chalk",
+    "commander",
+    "express",
+    "react",
+    "async",
+    "debug",
+    "bluebird",
+    "yargs",
+    "q",
+    "vue",
+    "gulp",
+    "@angular/core",
+    "optimist",
+    "co",
 }
 ```
 
