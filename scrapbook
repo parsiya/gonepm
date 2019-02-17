@@ -1,0 +1,88 @@
+// import "time"
+
+// // ShortMetadata contains the abbreviated metadata retrieved from npm with
+// // "Accept: application/vnd.npm.install-v1+json" header.
+// type ShortMetadata struct {
+// 	DistTags struct {
+// 		Latest string `json:"latest"`
+// 	} `json:"dist-tags"`
+// 	Modified time.Time               `json:"modified"`
+// 	Name     string                  `json:"name"`
+// 	Versions map[string]ShortVersion `json:"versions"`
+// }
+
+// // ShortVersion contains the version information in the abbreviated metadata.
+// type ShortVersion struct {
+// 	HasShrinkwrap bool `json:"_hasShrinkwrap"`
+// 	Directories   struct {
+// 	} `json:"directories"`
+// 	Dist struct {
+// 		Shasum  string `json:"shasum"`
+// 		Tarball string `json:"tarball"`
+// 	} `json:"dist"`
+// 	Name    string `json:"name"`
+// 	Version string `json:"version"`
+// }
+
+// // FullMetadata contains the full metadata retrieved from npm.
+// type FullMetadata struct {
+// 	Attachments struct {
+// 	} `json:"_attachments"`
+// 	ID     string `json:"_id"`
+// 	Rev    string `json:"_rev"`
+// 	Author struct {
+// 		Email string `json:"email"`
+// 		Name  string `json:"name"`
+// 	} `json:"author"`
+// 	Bugs struct {
+// 		URL string `json:"url"`
+// 	} `json:"bugs"`
+// 	Description string `json:"description"`
+// 	DistTags    struct {
+// 		Latest string `json:"latest"`
+// 	} `json:"dist-tags"`
+// 	License     string `json:"license"`
+// 	Maintainers []struct {
+// 		Email string `json:"email"`
+// 		Name  string `json:"name"`
+// 	} `json:"maintainers"`
+// 	Name           string                 `json:"name"`
+// 	Readme         string                 `json:"readme"`
+// 	ReadmeFilename string                 `json:"readmeFilename"`
+// 	Time           map[string]string      `json:"time"`
+// 	Versions       map[string]FullVersion `json:"versions"`
+// }
+
+// // FullVersion
+// type FullVersion struct {
+// 	From        string `json:"_from"`
+// 	ID          string `json:"_id"`
+// 	NodeVersion string `json:"_nodeVersion"`
+// 	NpmUser     struct {
+// 		Email string `json:"email"`
+// 		Name  string `json:"name"`
+// 	} `json:"_npmUser"`
+// 	NpmVersion string `json:"_npmVersion"`
+// 	Shasum     string `json:"_shasum"`
+// 	Author     struct {
+// 		Email string `json:"email"`
+// 		Name  string `json:"name"`
+// 	} `json:"author"`
+// 	Description string `json:"description"`
+// 	Directories struct {
+// 	} `json:"directories"`
+// 	Dist struct {
+// 		Shasum  string `json:"shasum"`
+// 		Tarball string `json:"tarball"`
+// 	} `json:"dist"`
+// 	Main        string `json:"main"`
+// 	Maintainers []struct {
+// 		Email string `json:"email"`
+// 		Name  string `json:"name"`
+// 	} `json:"maintainers"`
+// 	Name    string `json:"name"`
+// 	Scripts struct {
+// 		Test string `json:"test"`
+// 	} `json:"scripts"`
+// 	Version string `json:"version"`
+// }
